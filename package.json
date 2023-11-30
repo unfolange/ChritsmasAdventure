@@ -1,0 +1,26 @@
+{
+  "homepage": "http://unfolange.github.io/christmasadventure",
+  "name": "chritsmasadventure1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "",
+    "deploy": "gh-pages -d .",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --watch --open"
+  },
+  "author": "unfolange",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@web/dev-server": "^0.4.1",
+    "babel-loader": "^9.1.3",
+    "gh-pages": "^6.1.0",
+    "phaser": "^3.70.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
